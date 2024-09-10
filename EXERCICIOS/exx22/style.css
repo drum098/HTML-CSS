@@ -12,6 +12,7 @@ header{
 }
 .todo{
     color: red;
+    display: block;
 }
 .titulo{
    
@@ -21,4 +22,5 @@ header{
 .autor{
     font-size: 10px;
     padding: 10px ;
+
 }
