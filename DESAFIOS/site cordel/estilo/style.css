@@ -30,13 +30,13 @@ header{
     text-align: center;
 }
 
-header h1{
+header > h1{
     padding-top: 50px;
     font-variant: small-caps;
     padding-bottom: 20px;
 }
 
-header p{
+header > p{
     padding-bottom: 50px;
     
 }
@@ -47,26 +47,33 @@ section{
     padding-left: 30px;
    line-height: 2em;
    font-family: var(--font2);
-   font-size: 4.5vw;
+   font-size: 3.5vw;
 }
    
 
 section.normal{
    background-color: white;
+   color: rgb(43, 42, 42);
 }
 section > p{
+    padding-bottom: 1em;
     
-    background-color: rgba(0, 0, 0, 0.449);
-    font-size: 50px;
-    letter-spacing: 2px; 
-    line-height: 1.5;
-    font-family: var(--font2);
 }
 section.imagem{
     display: inline-block;
     background-color: rgb(33, 32, 32);
-    color: white;
+    padding: 5px;
 }
+section#img1{
+    background-image: url('../imagens/background001.jpg');
+    background-position: right center;
+}
+
+section#img2{
+    background-image: url('../imagens/background002.jpg');
+    background-position: right center;}
+
+
  a{
     color: white;
     text-decoration: none;
